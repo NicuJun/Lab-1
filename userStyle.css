@@ -1,0 +1,117 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    z-index: 1;
+    border-bottom: 1px solid gray;
+}
+
+#logo {
+    width: 50px;
+    border-radius: 30px;
+}
+
+#src {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: gray;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+#src::placeholder {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#src:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+#user, #profile_pic {
+    width: 40px;
+}
+
+#notification {
+    width: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#fav {
+    background-color: #232323;
+    color: #fff;
+    transition: background-color 0.5s ease-in-out, padding 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+}
+
+#fav:hover {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#main {
+    padding: 25px;
+    margin-top: 20px; 
+    color: #fff;
+    background-color: #232323;
+}
+.card-body{
+
+}
+.card-img-top{
+    width: 250px;
+    position: relative;left: 20px;
+}
+
+.card-title{
+    font-size: 40px;
+    
+}
+
+.card-text{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#user_name {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#user_bio {
+    font-size: 16px;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    line-height: 1.5px;
+    padding-bottom: 25px;
+}
+
+footer hr {
+    background-color: gray;
+    width: 100%; 
+    box-shadow: 2px 0 10px #fff;
+}
+
+footer {
+    margin-bottom: 60px;
+}
